@@ -12,6 +12,7 @@
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
+
 .dl-horizontal dt {
     white-space: normal;
 }
@@ -25,6 +26,40 @@ textarea {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
-    border-color: #fff
+    background-color: #E5D1FA;
+    border-color: #ECF2FF;
 }
+.navbar-inverse {
+    background-color: #FFACAC;
+    border-color: #37306B;
+}
+.navbar-inverse.navbar-nav>li>a{
+    color:white;
+
+}
+    .navbar-inverse.navbar-brand {
+        color: white;
+    }
+
+.course {
+    list-style: none;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .course > li .date {
+            text-align: center;
+            background-color: #d41d50;
+            color: white;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
