@@ -223,3 +223,11 @@ D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj
 D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj\Debug\LamChauTotTi_2080600714.dll
 D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj\Debug\LamChauTotTi_2080600714.pdb
 D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj\Debug\LamChauTotTi_2080600714.Migrations.AddNameColumnToApplicationUser.resources
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj\Debug\LamChauTotTi_2080600714.Migrations.AddAttendance.resources
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Net.Http.Formatting.dll
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Web.Http.dll
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Web.Http.WebHost.dll
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Net.Http.Formatting.xml
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Web.Http.xml
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\bin\System.Web.Http.WebHost.xml
+D:\th-web\BigShool\BigSchool\LamChauTotTi_2080600714\LamChauTotTi_2080600714\obj\Debug\LamChauTotTi_2080600714.Migrations.AddFollowingsTable.resources
