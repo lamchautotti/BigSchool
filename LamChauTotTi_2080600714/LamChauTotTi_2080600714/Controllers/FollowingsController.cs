@@ -8,11 +8,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 using System.Web.Http;
-using System.Web.Mvc;
+using System.Net.Http;
 
 namespace LamChauTotTi_2080600714.Controllers
 {
-    public class FollowingsController : Controller
+    public class FollowingsController : ApiController
     {
         private readonly ApplicationDbContext _dbContext;
         public FollowingsController()
@@ -23,14 +23,14 @@ namespace LamChauTotTi_2080600714.Controllers
         public IHttpActionResult Follow(FollowingDto followingDto)
         {
             var userId = User.Identity.GetUserId();
-            if (_dbContext.Followings.Any(f => f.FollowerId == userId && f.FolloweeId==followingDto.FolloweeId))
+            if (_dbContext.Followings.Any(f => f.FollowerId == userId && f.FolloweeId == followingDto.FolloweeId))
                 return BadRequest("Following already exists!");
-            var folowing = new Following
+            var following = new Following
             {
-                FollowerId= userId,
+                FollowerId = userId,
                 FolloweeId = followingDto.FolloweeId
             };
-            _dbContext.Followings.Add(folowing);
+            _dbContext.Followings.Add(following);
             _dbContext.SaveChanges();
 
             return Ok();

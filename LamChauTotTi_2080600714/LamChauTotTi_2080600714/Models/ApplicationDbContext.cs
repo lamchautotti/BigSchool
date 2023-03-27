@@ -28,7 +28,6 @@ namespace LamChauTotTi_2080600714.Models
             .HasRequired(a => a.Course)
             .WithMany()
             .WillCascadeOnDelete(false);
-            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<ApplicationUser>()
             .HasMany(u => u.Followers)
@@ -40,7 +39,7 @@ namespace LamChauTotTi_2080600714.Models
            .WithRequired(f => f.Follower)
            .WillCascadeOnDelete(false);
 
-            base.OnModelCreating(modelBuilder);
+           base.OnModelCreating(modelBuilder);
         }
     }
 }

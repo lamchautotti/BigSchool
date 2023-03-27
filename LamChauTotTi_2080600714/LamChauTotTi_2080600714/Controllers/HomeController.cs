@@ -25,7 +25,7 @@ namespace LamChauTotTi_2080600714.Controllers
 
             var viewModel = new CoursesViewModel
             {
-                UpcommingCourese = upcommingCourses,
+                UpcommingCourses = upcommingCourses,
                 ShowAction = User.Identity.IsAuthenticated
             };
             return View(viewModel);

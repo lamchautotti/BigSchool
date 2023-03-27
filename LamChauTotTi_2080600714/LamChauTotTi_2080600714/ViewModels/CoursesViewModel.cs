@@ -8,7 +8,7 @@ namespace LamChauTotTi_2080600714.ViewModels
 {
     public class CoursesViewModel
     {
-        public IEnumerable<Course> UpcommingCourese { get; set; }
+        public IEnumerable<Course> UpcommingCourses { get; set; }
         public bool ShowAction { get; set; }
     }
 }
